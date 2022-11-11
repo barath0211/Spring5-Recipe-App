@@ -2,14 +2,14 @@ package barath.springframework.spring5recipeapp;
 
 import barath.springframework.spring5recipeapp.domain.Recipe;
 import barath.springframework.spring5recipeapp.repositories.RecipeRepository;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
 public class RecipeServiceImplTest {

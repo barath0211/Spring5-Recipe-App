@@ -1,9 +1,8 @@
 package barath.springframework.spring5recipeapp.domain;
 
 import org.aspectj.lang.annotation.Before;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class CategoryTest {
     Category category;
