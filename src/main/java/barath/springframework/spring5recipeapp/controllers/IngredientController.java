@@ -1,5 +1,6 @@
 package barath.springframework.spring5recipeapp.controllers;
 
+import barath.springframework.spring5recipeapp.services.IngredientService;
 import barath.springframework.spring5recipeapp.services.RecipeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -14,7 +15,7 @@ public class IngredientController {
 
     private final RecipeService recipeService;
 
-    public IngredientController(RecipeService recipeService) {
+    public IngredientController(RecipeService recipeService, IngredientService ingredientService) {
         this.recipeService = recipeService;
     }
 
