@@ -15,4 +15,7 @@ public class IngredientCommand {
     private String description;
     private BigDecimal amount;
     private UnitOfMeasureCommand uom;
+
+    public void setUnitOfMeasure(UnitOfMeasureCommand unitOfMeasureCommand) {
+    }
 }
